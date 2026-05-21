@@ -1,0 +1,26 @@
+{
+  "name": "oxellabs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "OXEL BOT WhatsApp Session Generator",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "SAGE",
+  "license": "MIT",
+  "dependencies": {
+    "@itsliaaa/baileys": "github:itsliaaa/baileys",
+    "awesome-phonenumber": "^5.9.0",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4"
+  }
+}
